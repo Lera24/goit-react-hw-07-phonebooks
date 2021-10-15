@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid var(--grey-color);
+  padding: 10px;
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+.name {
+  padding-left: 4px;
+  font-weight: bold;
+}
+
+.number {
+  margin-left: auto;
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 70px;
+  border: 1px solid var(--grey-color);
+}
+
+.title {
+  font-size: 16px;
+  font-weight: normal;
+}
